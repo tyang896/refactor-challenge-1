@@ -8,6 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/*
+----------------------------------------
+Section for styling the header
+----------------------------------------
+*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +21,18 @@ header {
     color: #ffffff;
 }
 
+/*Changes the style for the name Horiseon*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Color styling for the letters seo in the top of the page*/
 .seo {
     color: #d9dcd6;
 }
 
+/*Navigation links styling*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +55,12 @@ a {
     text-decoration: none;
 }
 
+/*Changes the size for all the descriptive texts on the webpage*/
 p {
     font-size: 16px;
 }
 
+/*Styling for the background image*/
 .background{
     height: 800px;
     width: 100%;
@@ -59,15 +70,23 @@ p {
     background-position: center;
 }
 
+/*Setting for moving images to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Setting for moving images to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/*
+----------------------------------------
+Section for styling the main contents
+----------------------------------------
+*/
 
 main {
     width: 75%;
@@ -95,6 +114,12 @@ main section h2 {
 main section img {
     max-height: 200px;
 }
+
+/*
+----------------------------------------
+Section for styling the sidebar
+----------------------------------------
+*/
 
 aside {
     margin-right: 20px;
@@ -125,6 +150,13 @@ aside section img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/*
+----------------------------------------
+Section for styling the footer
+----------------------------------------
+*/
 
 footer {
     padding: 30px;
